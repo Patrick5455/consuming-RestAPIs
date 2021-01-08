@@ -7,18 +7,37 @@ import java.net.*;
 
 public class Service {
 
-    private final String HOST = "https://d22d6e9c0bea.ngrok.io/";
+    private final String HOST = "https://postman-echo.com";
+    private final String GET_REQUEST = "/get";
+    private final String CONTENT_TYPE = "Content-Type";
+    private final String APPLICATION_JSON_WITH_UTF_8 = "application/json; utf-8";
+    private final String APPLICATION_JSON = "application/json";
+    private final String ACCEPT = "Accept";
 
-    private final String ACCURACY_SUMMARY_URL = "/v1/get-metrics/accuracy-measure";
 
     public static void main(String[] args)
             throws IOException {
+    }
 
+    public static void makeGetRequest(String url){
 
     }
 
-    public static AccuracySummary getAccuracySummary(String url){
+    public static void makePostRequest(String url){
 
-        return new AccuracySummary();
     }
+
+    public static void makeDeleteRequest(String url){
+
+    }
+
+    public static void makePutRequest(String url){
+
+    }
+
+    public static void makePatchRequest(String url){
+
+    }
+
+
 }
